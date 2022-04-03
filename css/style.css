@@ -1,0 +1,358 @@
+.cl {margin-top: 50px;}
+
+.carousel-indicators li{
+    
+    height: 20px;
+    width: 20px;
+    border: 2px solid red;
+}
+.carousel-indicators .active{
+    
+    height: 20px;
+    width: 20px;
+    border: 2px solid #ff4444;
+    background-color: #cc0000;
+
+}
+.navbar-inverse .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar-inverse .navbar-brand span{
+    color: #cc1133;
+}
+
+/* start sectiion about */
+
+.about{
+    
+padding-top:60px;
+padding-bottom: 60px;    
+
+}
+.about .lead{
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px;
+
+}
+.about h1{
+    font-weight:bold;
+}
+.about h1 span{
+    color: #e41b17;
+}
+.features{
+    background: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features .feat{
+    margin-bottom: 20px;
+    border: 1px solid #e41b17;
+  /*  transition: all 0.5s ease;*/
+}
+
+.features .feat:hover{
+  background: #cc1133;
+  font-size: 15px; 
+  font-weight: bold; 
+color: white;    
+}
+
+.testimonials{ 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testimonials h1 {
+font-weight: bold;
+margin-bottom: 20px;    
+}
+.testimonials .lead {
+line-height: 2em;    
+}
+
+.testimonials .carousel-inner{
+    min-height: 160px;
+    
+}
+.testimonials .carousel-indicators {
+    position: static;
+    width: 100%;
+    margin-left: auto;
+  
+}
+.testimonials .carousel-indicators li{
+    
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.5;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.testimonials .carousel-indicators li.active{
+    opacity: 1;
+}
+.testimonials .carousel-indicators li img{
+    max-width:100%;
+}
+
+/* star section price table*/
+
+.price_table{
+    background: #eee;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.price_table h1{
+    margin-bottom: 40px;
+    
+}
+.price_table .price_box{
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+.price_table .price_box h2{
+    margin: 5px 0 15px ;
+}
+.price_table .price_box p{
+   font-size: 35px;
+    font-weight: bold;
+    color: #666;
+}
+.price_table .price_box ul{
+    line-height: 250%;
+    font-size: 18px;
+    
+}
+/* end section price table*/
+
+/* start section our team*/
+.our_team{
+    background: url("../images/wp/Wallpaper%20(146).jpg") no-repeat center center fixed;
+    min-height:600px; 
+}
+.our_team .team{
+    background: rgba(2,2,2,0.5);
+    color: white;
+    min-height:600px; 
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.our_team h1{
+    margin-bottom: 50px;
+}
+.our_team img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    border: 3px solid #aaa;
+    border-radius: 10%;
+}
+
+.our_team .person{margin-bottom: 40px}
+
+
+/* end section our team*/
+
+/* start section subscribe*/
+.subscribe{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background: #eee;
+}
+
+.subscribe h1{
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    
+}
+.subscribe p{
+  
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    
+}
+
+.subscribe .form-control{
+   border-radius: 0;
+    margin-right: -5px;
+    width: 300px;
+    
+    
+}
+.subscribe button{
+    border-radius: 0;
+}
+
+/* end section subscribe*/
+
+/* star section stat*/
+.statistics{
+    background: url("../images/wp/Wallpaper%20(197).jpg") no-repeat center center fixed;
+    min-height: 400px;
+}
+.statistics .data{
+    background-color: rgba(2,2,2,0.6);
+    color: #b6b5b5;
+    min-height: 400px;
+    padding: 40px;
+    padding-bottom: 70px;
+}
+.statistics h1{
+    margin-bottom: 60px;
+}
+.statistics .stats{
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 30px;
+    
+}
+.statistics .stats:hover{
+    color: #cc1133;
+    
+}
+.statistics p{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+.statistics span{
+    font-size: 18px;
+} 
+.statistics .stats
+/* end section stat*/
+/* start section skills*/
+.our-skills{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.our-skills h1{margin-bottom: 60px;
+}
+.our-skills h3{margin-top:0; font-weight: bold;
+}
+
+.our-skills .progress{
+    height: 36px;
+}
+.our-skills .progress-bar{
+    line-height: 36px;
+    font-size: 15px;
+    font-weight: bold;
+    text-indent: 10px;
+    
+}
+
+/* end section skills*/
+/*start section contact us*/
+.contact-us{
+    background: url('../images/wp/Wallpaper%20(169).jpg') no-repeat center center fixed ;
+    min-height: 400px;
+    margin-top: 20px;
+}
+.contact-us .fields{
+    background-color:rgba(9,9,9,0.8);
+    min-height: 400px;
+    color: #ddd;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    
+}
+.contact-us p{ margin-bottom: 40px;}
+.contact-us textarea{height:  108px}
+/*end section contact us*/
+
+/*start footer*/
+.footer {
+    background: #111;
+    color: #aaa;
+    padding-top:10px;
+}
+.footer a {
+    color: #aaa;
+     
+} 
+.footer a:hover {
+    color: #aaa;
+     
+}
+.footer h3{
+    color: #0895d1;
+    letter-spacing: 1px;
+    margin: 30px 0 20px; ;
+}
+.footer .three-columns{
+ overflow: hidden;
+}
+.footer .three-columns li{
+    width: 33.3333%;
+    float: left;
+    padding:5px 0; 
+}
+
+.footer .social-list{
+    overflow: hidden;
+    margin:20px 0 10px; 
+    
+}
+.footer .social-list li{
+    float: left;
+    margin-right: 3px;
+    opacity: 0.5;
+
+} 
+
+.footer .social-list li:hover{
+  
+    opacity: 1;
+
+} 
+
+.footer .img-thumbnail{
+    background: rgba(0,0,0,0.2);
+    border: 1px solid #444;
+    margin-bottom: 5px;
+}
+.footer .copyright {
+    background:#333;
+    color: #aaa;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.footer .copyright span{
+    color: #0895d1;
+    
+}
+/*start media*/
+/*smart phones and tabltes*/
+@media (max-width:767px)
+{
+    .navbar-inverse .navbar-nav >li>a
+    {
+        padding-top: 10px;
+        padding-bottom: 1px;
+    }
+    .subscribe .form-control
+    {
+        margin: 20px auto;
+    }
+    
+}
+/*Small Screen*/
+@media (min-width:768px) and (max-width:991px)
+{
+    
+}
+
+/*medieum Screen*/
+@media (min-width:992px) and (max-width:1199px)
+{
+    
+}    
+/*end footer*/
